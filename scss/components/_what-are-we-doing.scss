@@ -1,4 +1,4 @@
-.what_are_we_doing{
+.we_doing__section{
   padding-bottom: 94px;
 }
 
@@ -10,7 +10,7 @@
     padding-right: 15px;
     }
 
-    .we_doing{
+    .we_doing__heading{
         margin-bottom: 50px;
         margin-top: 0px;
         font-weight: 700;
@@ -21,26 +21,27 @@
         text-align: center;
       }
 
-      .lis{
+      .we_doing__list{
         list-style:none;
         margin-top: 0px;
         margin-bottom: 0px;
         display: flex;
-      
         text-align: center;
         padding-left: 0px;
       }
 
-      .we_doing_li{
+      .we_doing__item{
         margin-right: 30px;
         position: relative;
         z-index: -1;
-      }
-      .we_doing_li:last-child {
-        margin-right: 0px;
+
+        &:last-child {
+          margin-right: 0px;
+        }
       }
 
-      .we_doing_li_signat {
+
+      .we_doing__item_heading {
         position: absolute;
         display: inline-flex;
         align-items:center;
@@ -53,7 +54,6 @@
         height: 70px;
         padding: 0;
         margin: 0;
-        
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;

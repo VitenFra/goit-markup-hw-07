@@ -1,20 +1,18 @@
-.regular_cli {
+.regular_clients__section {
 
    padding-top: 94px;
    padding-bottom: 94px;
  }
-.our_regular_cli {
+.regular_clients__list {
   display: inline-flex;
   list-style:none;
   margin: 0px;
   padding: 0;
 }
 
-.our_regular_cli_li_LogoYa:last-child {
-  margin-right: 0px;
-}
 
-.our_regular_cli_li_LogoYa{
+
+.regular_clients__item{
   height: 92px;
   width: 170px;
   border: 1px solid #AFB1B8;
@@ -28,14 +26,20 @@
   transition-property: fill,border ;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.our_regular_cli_li_LogoYa:hover,
-.our_regular_cli_li_LogoYa:focus {
+
+  &:last-child {
+    margin-right: 0px;
+  }
+
+  &:hover,
+  &:focus {
   fill: var(--subsidiary-color);
   border: 1px solid #2196F3;
 }
+}
 
-.our_team_head{
+
+.regular_clients__heading{
   text-align: center;
   margin-bottom: 50px;
   padding: 0px;
